@@ -1,7 +1,7 @@
 <h1>Seq2seq-chatbot</h1>
 
 <h2>Introduction</h2>
-<p>This is a project based on the Seq2seq algorithm implementation that enables users to conduct some simple conversations online with a corpus-trained chatbot. The project supports both mobile and PC side, and all inference calculations are done in a lightweight application server used by the author for deployment.</p>
+<p>This is a project based on the Seq2seq algorithm[1] implementation that enables users to conduct some simple conversations online with a corpus-trained chatbot. The project supports both mobile and PC side, and all inference calculations are done in a lightweight application server used by the author for deployment.</p>
 
 <h2>Playground Online</h2>
 <a target="_blank" href="https://paradox-11.com/">paradox-11.com</a>
@@ -16,16 +16,10 @@ git clone git@github.com:paradox-11/Seq2seq-chatbot.git
 <p>2、Download the required open source frameworks and packages</p>
 
 ```
-pip install torch
-```
-```
-pip install flask
-```
-```
-pip install jieba
-```
-```
-pip install zhon
+pip install torch==1.11.0
+pip install flask==2.0.2
+pip install jieba==0.42.1
+pip install zhon==1.1.5
 ```
 <p>3、If you want to change the training corpus, please delete the .pt file in the Mymodels folder first.</p>
 <p>4、After personalizing the training corpus, please execute the execute.py file for training.</p>
@@ -33,5 +27,4 @@ pip install zhon
 <p>6、You can change the minimum loss value for training stops and some training related parameters in the seqseq.ini file in the config folder.</p>
 
 <h2>Reference</h2>
-<p>Ilya Sutskever, Oriol Vinyals and Quoc V. Le.Sequence to Sequence Learning with Neural Networks.In NIPS, 2014.</p>
-
+<p>[1]:Ilya Sutskever, Oriol Vinyals and Quoc V. Le.Sequence to Sequence Learning with Neural Networks.In NIPS, 2014.</p>
