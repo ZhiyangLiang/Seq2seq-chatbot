@@ -30,10 +30,10 @@ pip install flask==2.0.2
 pip install jieba==0.42.1
 pip install zhon==1.1.5
 ```
-<p>3、If you want to change the training corpus, please delete the .pt file in the Mymodels folder first.</p>
-<p>4、After personalizing the training corpus, please execute the execute.py file for training.</p>
-<p>5、You can observe the change of loss in real time during the training process, and then execute the app.py file after the training is finished to run the project successfully.</p>
-<p>6、You can change the minimum loss value for training stops and some training related parameters in the seqseq.ini file in the config folder.</p>
+<p>3、You can change the minimum loss value for training stops and some training related parameters in the seqseq.ini file in the config folder.</p>
+<p>4、If you want to change the training corpus, please delete the .pt file in the Mymodels folder first.</p>
+<p>5、After personalizing the training corpus, please execute the execute.py file for training.</p>
+<p>6、You can observe the change of loss in real time during the training process, and then execute the app.py file after the training is finished to run the project successfully.</p>
 
 <h2>Reference</h2>
 <p>[1]:Ilya Sutskever, Oriol Vinyals and Quoc V. Le.Sequence to Sequence Learning with Neural Networks.In NIPS, 2014.</p>
