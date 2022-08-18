@@ -14,8 +14,3 @@
 <p>四、对训练语料进行个性化的处理后，请先执行execute.py文件，进行训练。</p>
 <p>五、在训练过程中您可以实时观察loss的变化，训练完毕后再执行app.py文件即可成功运行该项目。</p>
 <p>六、您可以在config文件夹中的seqseq.ini文件更改训练停止的最小loss值及一些训练相关的参数。</p>
-```
-  python
-  #!/usr/bin/python3
-  print("Hello, World!");
-```
