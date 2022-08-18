@@ -1,11 +1,10 @@
 <h1>Seq2seq-chatbot</h1>
 
 <h2>Introduction</h2>
-<h3>Seq2seq:</h3>
-  
-<div>Seq2seq is a network of Encoder-Decoder structures, whose input and output are both a sequence. In Encoder, the sequence is converted into a fixed-length vector, and then that vector is converted into the sequence output we want by Decoder.</div>
-  
 <p>This is a project based on the Seq2seq model[1] implementation that enables users to conduct some simple conversations online with a corpus-trained chatbot. The project supports both mobile and PC side, and all inference calculations are done in a lightweight application server used by the author for deployment.</p>
+
+<h2>Model</h2>
+<p>Seq2seq is a network of Encoder-Decoder structures, whose input and output are both a sequence. In Encoder, the sequence is converted into a fixed-length vector, and then that vector is converted into the sequence output we want by Decoder.</p>
 
 <h2>Playground Online</h2>
 <a target="_blank" href="https://paradox-11.com/">paradox-11.com</a>
