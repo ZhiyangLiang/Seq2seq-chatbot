@@ -9,9 +9,7 @@
 <h2>Deployment</h2>
 <p>如果您想在自己的电脑上运行该项目或希望用自己的语料对模型进行训练，请参考下面的操作指南。</p>
 <p>一、clone该项目的相关文件：</p>
-```
-git@github.com:paradox-11/Seq2seq-chatbot.git
-```
+```git@github.com:paradox-11/Seq2seq-chatbot.git```
 <p>二、您可能需要安装torch zhon jieba flask，具体的安装命令可以参考网上的相关教程。</p>
 <p>三、如果您想要更改训练语料，请先删除Mymodels文件夹中的.pt文件。</p>
 <p>四、对训练语料进行个性化的处理后，请先执行execute.py文件，进行训练。</p>
