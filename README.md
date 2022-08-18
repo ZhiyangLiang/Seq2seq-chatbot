@@ -3,11 +3,17 @@
 <h2>Introduction</h2>
 <p>This is a project based on the Seq2seq model[1] implementation that enables users to conduct some simple conversations online with a corpus-trained chatbot. The project supports both mobile and PC side, and all inference calculations are done in a lightweight application server used by the author for deployment.</p>
 
+<h2>Playground Online</h2>
+<a target="_blank" href="https://paradox-11.com/">paradox-11.com</a>
+
 <h2>Model</h2>
 <p>Seq2seq is a network of Encoder-Decoder structures, whose input and output are both a sequence. In Encoder, the sequence is converted into a fixed-length vector, and then that vector is converted into the sequence output we want by Decoder.</p>
 
-<h2>Playground Online</h2>
-<a target="_blank" href="https://paradox-11.com/">paradox-11.com</a>
+<h2>Packages</h2>
+<h3>jieba</h3>
+<p>The jieba library is a library for Chinese word splitting, which can split complete sentences into multiple fragments based on lexicality, enabling the model to learn fragmented semantics to eventually understand complete sentences, and also reducing the amount of vocabulary that needs to be encoded during the training process.</p>
+<h3>zhon</h3>
+<p>The role of the zhon library here is to remove the interference of common Chinese symbols in the sentences to improve the training effect of the model.</p>
 
 <h2>Deployment</h2>
 <p>If you want to run the project on your own computer or want to train the model with your own corpus, please refer to the following instructions.</p>
