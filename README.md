@@ -10,7 +10,7 @@
 <p>If you want to run the project on your own computer or want to train the model with your own corpus, please refer to the following instructions.</p>
 <p>1、Clone documents for the project：</p>
 
-```cpp
+```
 git clone git@github.com:paradox-11/Seq2seq-chatbot.git
 ```
 <p>2、Download the required open source frameworks and packages</p>
