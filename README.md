@@ -21,6 +21,7 @@ git clone git@github.com:paradox-11/Seq2seq-chatbot.git
 
 <h2>Reference</h2>
 <p>Ilya Sutskever, Oriol Vinyals and Quoc V. Le.Sequence to Sequence Learning with Neural Networks.In NIPS, 2014.</p>
+
 ```cpp
-print("111")
+git clone git@github.com:paradox-11/Seq2seq-chatbot.git
 ```
