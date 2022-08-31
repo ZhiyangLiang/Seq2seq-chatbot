@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天机器人demo</title>
+    <link rel="shortcut icon" href="../static/image/1.jpg">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="header">
+    <a href="http://www.xdu-inspur.club" target="_blank">
+        <img src="../static/image/1.jpg" style="height: 58px" alt="浪潮club">
+    </a>
+    <span>&nbsp chatbot 聊天机器人 </span>
+    <span class="intro1">学习交流：</span>
+    <span class="intro2">QQ：798586304 &nbsp&nbsp 微信：lzy628599475 &nbsp&nbsp 知乎：zyliang</span>
+    <a href="#" class="github-corner" target="_blank">
+        <img src="../static/image/4.png" alt="View source on GitHub">
+    </a>
+</div>
+<hr/>
+<img src="../static/image/3.png" alt="你的名字夜景" id="myname">
+<img src="../static/image/5.png" alt="你的名字晨景" id="yourname">
+<div id="side-bar">
+<div class="side-bar-item">
+  <div class="side-bar-item-title">
+    项目简介
+  </div>
+  <div class="side-bar-item-content">
+    这是一个基于<a target="_blank" href="https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html">Seq2seq模型</a>实现的喜欢答非所问的聊天机器人（你也可以直接叫它“奔奔驼”），作者使用了少部分经过调整的小黄鸡语料库及自创语料作为训练语料，在RTX 3080 Ti的训练时长约为24个小时。因为使用的模型较为基础、训练的时间还不够长等原因，当前的小机器人尚不够智能，关于这点还请大家抱着图一乐的心态予以谅解。
+  </div>
+</div>
+
+<div class="side-bar-item">
+  <div class="side-bar-item-title">
+    操作指南
+  </div>
+  <div class="side-bar-item-content">
+    网页的聊天界面是基于QQ聊天界面实现的，即只需要在文本框输入文本，点击 发送 按钮，便可收到奔奔驼的回复（如果不出意外应该还是秒回）。
+  </div>
+</div>
+<div class="side-bar-item">
+    <div class="side-bar-item-title">
+        注意事项
+    </div>
+    <div class="side-bar-item-content">
+        <p>一、这里的聊天指的是单轮聊天，"培养感情"的过程在模型训练时就已经完成了。</p>
+        <p>二、为提升语意识别的准确率，输入的话最好不要带有标点符号（无论是句中还是句末）。</p>
+        <p>三、若回复的结果不够理想，请将少见的词语通过空格分隔为单个汉字，或将较长的句子通过空格断句，以帮助奔奔驼理解语意。</p>
+        <p>四、输入的文本最好不要多于30字，且最好避免生僻字，即选择在
+        <a target="_blank" href="https://www.zdic.net/zd/zb/cc1/">《现代汉语常用字表》</a>
+        中的汉字（因为奔奔驼的词汇量还比较小）。</p>
+    </div>
+</div>
+</div>
+<form enctype="text/plain" method="POST">
+    <div class="chat-input">
+        <textarea cols="126px" rows="10px" name="text" class="name"></textarea>
+<!--            <input type="file" name="text" height="5" width="20" style="color:#ba004d">-->
+        <div class="btn">
+            <button style="color:black">发送</button>
+        </div>
+        <ul class="inp" id="input_msg"></ul>
+        <ul class="msg" id="transfer_msg"></ul>
+    </div>
+<!--        <div class="transfer_msg"></div>-->
+</form>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

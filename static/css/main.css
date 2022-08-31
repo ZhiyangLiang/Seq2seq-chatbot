@@ -1,0 +1,130 @@
+#side-bar {
+  width: 300px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+#side-bar .side-bar-item {
+margin: 5px 0;
+padding: 10px 20px;
+background-color: yellowgreen;
+box-shadow: 0 0 5px #ddd;
+border-radius: 5px;
+user-select: none;
+/*&:first-child, &:last-child {*/
+/*  margin: 0;*/
+/*}*/
+}
+.side-bar-item-title {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+.side-bar-item-content {
+  font-size: 15px;
+  text-align: left;
+}
+.side-bar-item-content p {
+    margin: 0;
+}
+.chat-input{
+    width: 862px;
+    height: 385px;
+    position: absolute;
+    top: 345px;
+    right: 45px;
+    background-color: whitesmoke;
+    background-image: url(../image/2.png);
+    background-repeat: no-repeat;
+}
+.chat-input textarea{
+    position: relative;
+    left: 0px;
+    top: 268px;
+}
+.chat-input .btn{
+    position: relative;
+    left: 802px;
+    top: 222px;
+}
+li{
+    list-style: none;
+}
+.inp{
+    width: 550px;
+    height: 75px;
+    position: relative;
+    left: 120px;
+    bottom: 172px;
+    /*background-color: #8500aa;*/
+}
+.msg{
+    width: 550px;
+    height: 75px;
+    position: relative;
+    left: 120px;
+    bottom: 124px;
+    /*background-color: #00ff3c;*/
+}
+body{
+    background-color: black;
+    /*background-image: url("../5.png");*/
+}
+#myname{
+    position: absolute;
+    bottom: 230px;
+    right: 450px;
+    height: 245px;
+    width: 455px;
+}
+#yourname{
+    position: absolute;
+    bottom: 230px;
+    right: 45px;
+    height: 245px;
+    width: 450px;
+}
+.header {
+    color: #00ff3c;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.github-corner img {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    height: 58px;
+}
+hr{
+    color: green;
+}
+.intro1{
+    padding-left: 205px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    color: #1e53ff;
+    font-weight: bold;
+}
+.intro2{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    color: #00d0ff;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: green;
+}
