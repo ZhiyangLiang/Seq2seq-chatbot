@@ -6,6 +6,8 @@
 <h2>Online</h2>
 This project is available at <a target="_blank" href="https://paradox-11.com/">paradox-11.com</a>.
 
+Since I haven't renewed the server, this project will not be available online. (2023/8/2)
+
 <h2>Model</h2>
 <p>Seq2seq is a network with Encoder-Decoder structures, whose input and output are both a sequence. In Encoder, the sequence is converted into a fixed-length vector, and then that vector is converted into the sequence output we want by Decoder.</p>
 
